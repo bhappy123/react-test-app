@@ -1,0 +1,42 @@
+.theme-image{
+    height: 400px;
+}
+.theme_left{
+    width: 80%;
+}
+.theme_left p{
+    width: 80%;
+}
+.theme .heading h2{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.theme_left, .theme_right{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.theme{
+    align-items: center;
+    width: 100%;
+}
+
+.sub-points i{
+    font-size: 25px;
+    color: #335eea;
+    padding: 10px;
+}
+.sub-points h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.text-center{
+    text-align: center;
+}
+
+.customer-msg{
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}

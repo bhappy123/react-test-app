@@ -1,0 +1,72 @@
+.servicedeatail{
+    clip-path: polygon(0 6%, 100% 0, 100% 94%, 0% 100%);
+    position: relative;
+}
+.service-image{
+    height: 400px;
+}
+.service_left{
+    width: 80%;
+}
+.service_left p{
+    width: 80%;
+}
+.service .heading h2{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.service_left, .service_right{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.service{
+    align-items: center;
+    width: 100%;
+}
+
+.sub-points i{
+    font-size: 25px;
+    color: #335eea;
+    padding: 10px;
+}
+.sub-points h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.text-center{
+    text-align: center;
+}
+
+.customer-msg{
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.testimonial{
+    max-width: 1200px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    background-color: white;
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+    bottom: -150px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: -2px -2px 30px rgba(0, 0, 0, 0.137);
+}
+.test-img, .test-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.test-img{
+    border-bottom-right-radius: 600px;
+    overflow: hidden !important;
+}
